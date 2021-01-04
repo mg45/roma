@@ -1,0 +1,244 @@
+/*----------------------------------------
+  Custom Fonts
+----------------------------------------*/
+@font-face {
+    font-family: SantioBold;
+    src: url(../fonts/Santio\ Bold.ttf);
+}
+
+@font-face {
+    font-family: MrDafoe;
+    src: url(../fonts/MrDafoe-Regular.ttf);
+}
+
+/*----------------------------------------
+  Google Fonts
+----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@400;500;700&display=swap');
+/* font-family: 'Mr Dafoe', cursive;
+   font-family: 'Roboto', sans-serif;
+*/
+
+/*----------------------------------------
+  Default Styles
+----------------------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
+figure {
+    margin: 0 0;
+}
+
+body {
+    font-family: SantioBold;
+    margin: 0 0;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.subHeadings {
+    padding: 0 10px;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+
+figure.figWidth {
+    max-width: 200px;
+}
+
+.statLead {
+    margin-left: 0;
+    font-size: 13rem;
+}
+
+/*----------------------------------------
+  Header
+----------------------------------------*/
+header {
+    padding-top: 1rem;
+    text-align: right;
+    padding-right: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+header > div {
+    display: inline;
+    border-bottom: 3px solid #e7bc0e;
+}
+
+header > img {
+    vertical-align: middle;
+    max-width: 30px;
+    margin-right: 1.8rem;
+}
+
+/*----------------------------------------
+  Hero Section / Parallax
+----------------------------------------*/
+section:first-of-type {
+    background: rgba(0,0,0,.7)
+    url(../img/cleo-topper.jpg) center/cover no-repeat;
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+    color: #333;
+}
+
+section:first-of-type > h1 {
+    padding-left: 10%;
+    color: #fff;
+    width: 30%;
+}
+
+/*----------------------------------------
+  Jump To with transform 
+----------------------------------------*/
+article:first-of-type {
+    padding-left: 10%;
+}
+
+.transf {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 3rem;
+}
+
+article:first-of-type h2 {
+    font-family: 'MrDafoe', cursive;
+    color: #e7bc0e;
+}
+
+
+article:first-of-type a {
+    text-decoration: none;
+    color: #e7bc0e;
+}
+
+/*----------------------------------------
+  Learn more Section 
+----------------------------------------*/
+#learnMore p {
+    color: #6bc1a3;
+    font-size: 4rem;
+    width: 60%;
+    margin: 40% auto;
+    line-height: 5rem;
+}
+
+/*----------------------------------------
+  Workers Section 
+----------------------------------------*/
+#statWorkers {
+    color: #e7bc0e;
+    padding: 0 10% 20% 10%;
+}
+
+/*----------------------------------------
+  Stat Pay Section
+----------------------------------------*/
+section#statPay {
+    color: #cb91b6;
+    padding: 0 10% 20% 10%;
+}
+
+section#statPay h1 {
+    margin-top: 0;
+}
+
+/*----------------------------------------
+  Stat Health Section 
+----------------------------------------*/
+section#statHealth {
+    color: #6bc1a3;
+    padding: 0 10% 20% 10%;
+}
+
+/*----------------------------------------
+  Learn more 2 Section 
+----------------------------------------*/
+section#learnMore2 p {
+    color: #7eb8e1;
+    font-size: 4rem;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 5rem;
+    padding-bottom: 10%;
+}
+
+/*----------------------------------------
+  2 Background Section
+----------------------------------------*/
+section#kidsAndSee {
+    height: 100vh;
+    background: url(../img/kid.png) center/cover no-repeat, url(../img/see.png) center/cover no-repeat;
+}
+
+/*----------------------------------------
+  You can Help Section
+----------------------------------------*/
+section#youCanHelp {
+    padding: 0 20% 10% 10%;
+    background-color: #000;
+    color: #fff;
+}
+
+section#youCanHelp h1 {
+    width: 80%;
+    font-size: 8rem;
+    margin: 0px 0px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20% 0 10% 0;
+}
+
+section#youCanHelp a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+section#youCanHelp a:hover {
+  box-shadow: 4px 6px;
+}
+
+/*----------------------------------------
+  Footer
+----------------------------------------*/
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+footer > p {
+    margin: 0 0;
+    padding: 3% 0;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+footer  a {
+    text-decoration: none;
+    color: #6bc1a3;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #6bc1a3;
+}
